@@ -1,0 +1,48 @@
+html, body, .container-fluid, .row {
+    height: 100%;
+}
+
+body {
+  font-family: Open Sans, sans-serif;
+}
+
+h3 {
+  font-weight: 100;
+  letter-spacing: .2rem;
+}
+
+.sidebar {
+  background-image: linear-gradient(to bottom, #30424c, #30424c, #30424c, #30424c, #30424c);
+  color: #fff;
+}
+
+@media (min-width: 992px) {
+  .sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+    display: block;
+    background-image: linear-gradient(to bottom, #30424c, #30424c, #30424c, #30424c, #30424c);
+    color: #fff;
+  }
+}
+
+.sidebar .logo {
+  height: 64px;
+}
+
+.sidebar .logo img {
+  width: 64px;
+}
+
+.sidebar .logo h3 {
+  text-align: center;
+
+}
+
+.sidebar .logo h3,
+.sidebar .logo img {
+  display: inline-block;
+}
