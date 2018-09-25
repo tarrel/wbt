@@ -1,9 +1,11 @@
+*, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Muli', sans-serif;
+}
 html, body, .container-fluid, .row {
     height: 100%;
-}
-
-body {
-  font-family: Open Sans, sans-serif;
 }
 
 h3 {
@@ -30,19 +32,27 @@ h3 {
 }
 
 .sidebar .logo {
-  height: 64px;
+    height: 64px;
+    border-bottom: 1px solid #43724b;
 }
 
 .sidebar .logo img {
-  width: 64px;
+  width: 45px;
+    display: block;
 }
 
-.sidebar .logo h3 {
-  text-align: center;
-
+.sidebar p {
+    font-size: 28px;
+    letter-spacing: 0.2rem;
+    font-weight: 200;
+    user-select: none;
+    color: #43724b;
+    line-height: 60px;
 }
 
 .sidebar .logo h3,
 .sidebar .logo img {
   display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
 }
